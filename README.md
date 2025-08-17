@@ -27,9 +27,6 @@ The CRON format has **five fields**:
 │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday = 0)
 │ │ │ │ │
 
-yaml
-Copy
-Edit
 
 ### Examples:
 - `0 0 * * *` → Every day at 00:00 UTC  
