@@ -20,13 +20,15 @@ This is useful for tasks like **daily backups, reports, cleanup scripts, or auto
 
 The CRON format has **five fields**:
 
-┌───────────── minute (0 - 59)
-│ ┌───────────── hour (0 - 23)
-│ │ ┌───────────── day of month (1 - 31)
-│ │ │ ┌───────────── month (1 - 12)
-│ │ │ │ ┌───────────── day of week (0 - 6) (Sunday = 0)
-│ │ │ │ │
+## ⏰ Scheduled Workflow Timeline Example
 
+| Time (UTC) | Action                       |
+|------------|-------------------------------|
+| 00:00      | Run daily cron job (Schedule Workflow) |
+| 12:00      | Example: send daily report (optional) |
+| 18:30      | Example: cleanup temp files (optional) |
+
+> This table is a visual way to plan multiple scheduled tasks in your workflows. you can take help from: https://crontab.guru/
 
 ### Examples:
 - `0 0 * * *` → Every day at 00:00 UTC  
